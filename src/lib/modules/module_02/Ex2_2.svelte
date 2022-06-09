@@ -1,8 +1,8 @@
 <script>
-    import block2a from '../assets/block2a.png'
-    import block2b from '../assets/block2b.png'
-    import block2c from '../assets/block2c.png'
-    import '../articleStyles.css'
+    import block2_2a from '../../../assets/block2_2a.png'
+    import block2_2b from '../../../assets/block2_2b.png'
+    import block2_2c from '../../../assets/block2_2c.png'
+    import '/src/styles/articleStyles.css'
 </script>
 
 <main>
@@ -18,14 +18,14 @@
                 We're not limited to declaring reactive values — we can also run arbitrary statements reactively. For
                 example, we can log the value of <span class="highlighter">count</span> whenever it changes:
             </p>
-            <div class="codeBlockImg-MD">
-                <img src="{block2a}" alt="code block 2" width="100%" />
+            <div class="codeBlockImg">
+                <img src="{block2_2a}" alt="code block2_2a" width="100%" />
             </div>
         </section>
         <section>
             <p>You can easily group statements together with a block:</p>
-            <div class="codeBlockImg-MD">
-                <img src="{block2b}" alt="code block 2" width="100%" />
+            <div class="codeBlockImg">
+                <img src="{block2_2b}" alt="code block2_2b" width="100%" />
             </div>
         </section>
         <section>
@@ -33,9 +33,20 @@
                 You can even put the <span class="highlighter">$:</span> in front of things like
                 <span class="highlighter">if</span> blocks:
             </p>
-            <div class="codeBlockImg-MD">
-                <img src="{block2c}" alt="code block 2" width="100%" />
+            <div class="codeBlockImg">
+                <img src="{block2_2c}" alt="code block2_2c" width="100%" />
             </div>
         </section>
     </div>
 </main>
+
+<style>
+    main {
+        width: 100%;
+        /* border: 3px solid lime; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>

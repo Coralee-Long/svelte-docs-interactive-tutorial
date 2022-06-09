@@ -1,10 +1,19 @@
 <script>
-    import block3a from '../assets/block3a.png'
-    import block3b from '../assets/block3b.png'
-    import block3c from '../assets/block3c.png'
-    import block3d from '../assets/block3d.png'
-    import block3e from '../assets/block3e.png'
-    import '../articleStyles.css'
+    import block2_3a from '../../../assets/block2_3a.png'
+    import block2_3b from '../../../assets/block2_3b.png'
+    import block2_3c from '../../../assets/block2_3c.png'
+    import block2_3d from '../../../assets/block2_3d.png'
+    import block2_3e from '../../../assets/block2_3e.png'
+    import block2_3f from '../../../assets/block2_3f.png'
+    import '/src/styles/articleStyles.css'
+
+    let numbers = [1, 2, 3, 4]
+
+    const addNumber = () => {
+        numbers = [...numbers, numbers.length + 1]
+    }
+
+    $: sum = numbers.reduce((t, n) => t + n, 0)
 </script>
 
 <main>
@@ -15,6 +24,7 @@
             <span class="chapterSubHeading">Updating Arrays & Objects</span>
         </h1>
         <div class="spacer"></div>
+
         <section>
             <p>
                 Svelte's reactivity is triggered by assignments. Methods that mutate arrays or objects will not trigger
@@ -24,16 +34,18 @@
                 trigger the recalculation of <span class="highlighter">sum</span>. <br /><br />One way to fix that is to
                 assign <span class="highlighter">numbers</span> to itself to tell the compiler it has changed:
             </p>
-            <div class="codeBlockImg-MD">
-                <img src="{block3a}" alt="code block 3a" width="100%" />
+            <div class="codeBlockImg">
+                <img src="{block2_3a}" alt="code block2_3a" width="100%" />
             </div>
         </section>
+
         <section>
             <p>You could also write this more concisely using the ES6 spread syntax:</p>
-            <div class="codeBlockImg-MD">
-                <img src="{block3b}" alt="code block 3b" width="100%" />
+            <div class="codeBlockImg">
+                <img src="{block2_3b}" alt="code block2_3b" width="100%" />
             </div>
         </section>
+
         <section>
             <p>
                 The same rule applies to array methods such as <span class="highlighter">pop</span> ,
@@ -42,8 +54,16 @@
                 e.g. <span class="highlighter">obj.foo += 1</span> or <span class="highlighter">array[i] = x</span> —
                 work the same way as assignments to the values themselves.
             </p>
-            <div class="codeBlockImg-MD">
-                <img src="{block3c}" alt="code block 3c" width="100%" />
+            <div class="codeBlockImg">
+                <img src="{block2_3c}" alt="code block2_3c" width="100%" />
+            </div>
+            <p>However, indirect assignments to references such as this...</p>
+            <div class="codeBlockImg">
+                <img src="{block2_3d}" alt="code block2_3d" width="100%" />
+            </div>
+            <p>...or this...</p>
+            <div class="codeBlockImg">
+                <img src="{block2_3e}" alt="code block2_3e" width="100%" />
             </div>
             <p>
                 ...won't trigger reactivity on <span class="highlighter">obj.foo.bar</span>, unless you follow it up
@@ -51,6 +71,28 @@
                 variable must directly appear on the left hand side of the assignment.
             </p>
         </section>
+        <section>
+            <div class="example">
+                <h4>Example:</h4>
+
+                <div class="codeBlockImg" id="expandPic">
+                    <img src="{block2_3f}" alt="code block2_3f" width="100%" />
+                </div>
+                <button on:click="{addNumber}">Add a number</button>
+                <p class="exampleText">{numbers.join(' + ')} = {sum}</p>
+            </div>
+        </section>
+
         <div class="spacer"></div>
     </div>
 </main>
+
+<style>
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>

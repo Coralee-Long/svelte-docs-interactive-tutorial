@@ -1,0 +1,871 @@
+/* --------------------------------- 1201px +++ */
+
+@media screen and (min-width: 1201px) {
+    .container {
+        border: 2px solid #ff3e00;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0 5rem 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+        width: 90%;
+        min-width: 900px;
+        max-width: 1200px;
+    }
+
+    h1 {
+        color: #ff3e00;
+        text-transform: uppercase;
+        letter-spacing: 0.03rem;
+        font-weight: 200;
+        line-height: 2rem;
+        margin: -1rem 0rem 1rem 0rem;
+        padding: 0 2rem;
+    }
+
+    .chapterNum {
+        color: #ff3e00;
+        background-color: #ffffff;
+        font-weight: 600;
+        font-size: 5rem;
+    }
+
+    h4 {
+        color: #696969;
+        max-width: 600px;
+        line-height: 1.8rem;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .chapterName {
+        font-weight: 400;
+        font-size: 3rem;
+        background-color: #ffffff;
+        padding: 0 2rem;
+    }
+
+    .chapterSubHeading {
+        font-weight: 200;
+        font-size: 1.5rem;
+        background-color: none;
+    }
+
+    .example {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 800px;
+        border: 2px solid rgba(255, 62, 0, 0.2);
+        border-radius: 10px;
+        padding: 2rem 1rem;
+        margin: 4rem auto;
+    }
+
+    .exampleText {
+        margin: 1rem;
+        text-align: center;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .codeBlockImg {
+        width: 100%;
+        padding: 0rem 1.5rem 2.5rem 1.5rem;
+        max-width: max-content;
+        min-width: min-content;
+    }
+
+    .codeBlockImg img {
+        width: 100%;
+    }
+
+    button {
+        margin: 1rem;
+        font-family: inherit;
+        font-size: inherit;
+        padding: 1em 2em;
+        color: #ff3e00;
+        background-color: rgba(255, 62, 0, 0.1);
+        border-radius: 2em;
+        border: 2px solid rgba(255, 62, 0, 0);
+        outline: none;
+        width: 200px;
+        font-variant-numeric: tabular-nums;
+        cursor: pointer;
+    }
+
+    button:focus {
+        border: 2px solid #ff3e00;
+    }
+
+    button:active {
+        background-color: rgba(255, 62, 0, 0.2);
+    }
+
+    p {
+        margin: 1rem auto;
+        line-height: 1.5;
+        text-align: left;
+        color: grey;
+        width: 70%;
+        /* border: 2px solid lime; */
+    }
+
+    .highlighter {
+        background-color: rgba(255, 191, 0, 0.3);
+        border-radius: 5px;
+        color: #ff3e00;
+        padding: 0.1rem 0.3rem;
+        font-weight: 600;
+    }
+
+    .makeOrange {
+        color: #ff3e00;
+        font-weight: 600;
+        background-color: none;
+    }
+
+    .spacer {
+        height: 40px;
+    }
+}
+
+/* --------------------------------- 801px - 1200px */
+
+@media screen and (max-width: 1200px) {
+    .container {
+        border: 2px solid #ff3e00;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0 5rem 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        width: 90%;
+        max-width: 850px;
+    }
+
+    h1 {
+        color: #ff3e00;
+        text-transform: uppercase;
+        letter-spacing: 0.03rem;
+        font-weight: 200;
+        line-height: 2rem;
+        margin: -1rem 0rem 1rem 0rem;
+        padding: 0 2rem;
+    }
+
+    .chapterNum {
+        color: #ff3e00;
+        background-color: #ffffff;
+        font-weight: 600;
+        font-size: 5rem;
+    }
+
+    h4 {
+        color: #696969;
+        max-width: 600px;
+        line-height: 1.8rem;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .chapterName {
+        font-weight: 400;
+        font-size: 3rem;
+        background-color: #ffffff;
+        padding: 0 2rem;
+    }
+
+    .chapterSubHeading {
+        font-weight: 200;
+        font-size: 1.5rem;
+        background-color: none;
+    }
+
+    .example {
+        width: 85%;
+        max-width: 650px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgba(255, 62, 0, 0.2);
+        border-radius: 10px;
+        padding: 2rem 2rem;
+        margin: 4rem 0;
+    }
+
+    .exampleText {
+        margin: 1;
+        text-align: center;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .codeBlockImg {
+        width: 100%;
+        padding: 0rem 1.5rem 2.5rem 1.5rem;
+        max-width: 500px;
+    }
+
+    .codeBlockImg img {
+        width: 100%;
+    }
+
+    button {
+        margin: 1rem;
+        font-family: inherit;
+        font-size: inherit;
+        padding: 1em 2em;
+        color: #ff3e00;
+        background-color: rgba(255, 62, 0, 0.1);
+        border-radius: 2em;
+        border: 2px solid rgba(255, 62, 0, 0);
+        outline: none;
+        width: 200px;
+        font-variant-numeric: tabular-nums;
+        cursor: pointer;
+    }
+
+    button:focus {
+        border: 2px solid #ff3e00;
+    }
+
+    button:active {
+        background-color: rgba(255, 62, 0, 0.2);
+    }
+
+    p {
+        margin: 1rem auto;
+        line-height: 1.5;
+        text-align: left;
+        color: grey;
+        width: 90%;
+        /* border: 2px solid lime; */
+    }
+
+    .highlighter {
+        background-color: rgba(255, 191, 0, 0.3);
+        border-radius: 5px;
+        color: #ff3e00;
+        padding: 0.1rem 0.3rem;
+        font-weight: 600;
+    }
+
+    .makeOrange {
+        color: #ff3e00;
+        font-weight: 600;
+        background-color: none;
+    }
+
+    .spacer {
+        height: 40px;
+    }
+}
+
+/* --------------------------------- 601px - 800px */
+
+@media screen and (max-width: 800px) {
+    .container {
+        border: 2px solid #ff3e00;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0 5rem 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        width: 90%;
+        min-width: 550px;
+        max-width: 700px;
+    }
+
+    h1 {
+        color: #ff3e00;
+        text-transform: uppercase;
+        letter-spacing: 0.03rem;
+        font-weight: 200;
+        line-height: 2rem;
+        margin: -1rem 0rem 1rem 0rem;
+        padding: 0 2rem;
+    }
+
+    .chapterNum {
+        color: #ff3e00;
+        background-color: #ffffff;
+        font-weight: 600;
+        font-size: 5rem;
+    }
+
+    h4 {
+        color: #696969;
+        max-width: 600px;
+        line-height: 1.8rem;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .chapterName {
+        font-weight: 400;
+        font-size: 3rem;
+        background-color: #ffffff;
+        padding: 0 2rem;
+    }
+
+    .chapterSubHeading {
+        font-weight: 200;
+        font-size: 1.5rem;
+        background-color: none;
+    }
+
+    .example {
+        width: 85%;
+        min-width: 350px;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgba(255, 62, 0, 0.2);
+        border-radius: 10px;
+        padding: 2rem 2rem;
+        margin: 4rem auto;
+    }
+
+    .exampleText {
+        margin: 1;
+        min-width: 300px;
+        text-align: center;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .codeBlockImg {
+        width: 100%;
+        padding: 0rem 1.5rem 2.5rem 1.5rem;
+        min-width: 350px;
+        max-width: 500px;
+    }
+
+    .codeBlockImg img {
+        width: 100%;
+    }
+
+    button {
+        margin: 1rem;
+        font-family: inherit;
+        font-size: inherit;
+        padding: 1em 2em;
+        color: #ff3e00;
+        background-color: rgba(255, 62, 0, 0.1);
+        border-radius: 2em;
+        border: 2px solid rgba(255, 62, 0, 0);
+        outline: none;
+        width: 200px;
+        font-variant-numeric: tabular-nums;
+        cursor: pointer;
+    }
+
+    button:focus {
+        border: 2px solid #ff3e00;
+    }
+
+    button:active {
+        background-color: rgba(255, 62, 0, 0.2);
+    }
+
+    p {
+        margin: 1rem auto;
+        line-height: 1.5;
+        text-align: left;
+        color: grey;
+        width: 90%;
+        /* border: 2px solid lime; */
+    }
+
+    .highlighter {
+        background-color: rgba(255, 191, 0, 0.3);
+        border-radius: 5px;
+        color: #ff3e00;
+        padding: 0.1rem 0.3rem;
+        font-weight: 600;
+    }
+
+    .makeOrange {
+        color: #ff3e00;
+        font-weight: 600;
+        background-color: none;
+    }
+
+    .spacer {
+        height: 20px;
+    }
+}
+
+/* --------------------------------- 401 - 600px */
+@media screen and (max-width: 600px) {
+    .container {
+        border: 2px solid #ff3e00;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0.5rem 5rem 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        width: 100%;
+        min-width: 250px;
+        max-width: 600px;
+        background-color: aquamarine;
+    }
+
+    h1 {
+        color: #ff3e00;
+        text-transform: uppercase;
+        letter-spacing: 0.03rem;
+        font-weight: 200;
+        line-height: 2rem;
+        margin: -1rem 0rem 1rem 0rem;
+        padding: 0 2rem;
+    }
+
+    .chapterNum {
+        color: #ff3e00;
+        background-color: #ffffff;
+        font-weight: 600;
+        font-size: 5rem;
+    }
+
+    h4 {
+        color: #696969;
+        max-width: 600px;
+        line-height: 1.8rem;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .chapterName {
+        font-weight: 400;
+        font-size: 3rem;
+        background-color: #ffffff;
+        padding: 1rem;
+    }
+
+    .chapterSubHeading {
+        font-weight: 200;
+        font-size: 1.5rem;
+        background-color: none;
+    }
+
+    .example {
+        width: 95%;
+        min-width: 220px;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgba(255, 62, 0, 0.2);
+        border-radius: 10px;
+        padding: 2rem 0;
+    }
+
+    .exampleText {
+        margin: 1rem;
+        min-width: 120px;
+        text-align: center;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .codeBlockImg {
+        width: 100%;
+        padding: 0rem 0rem 0rem 0rem;
+        min-width: 200px;
+        max-width: 500px;
+    }
+
+    .codeBlockImg img {
+        width: 100%;
+    }
+
+    button {
+        margin: 1rem 0;
+        font-family: inherit;
+        font-size: inherit;
+        padding: 1em 1em;
+        color: #ff3e00;
+        background-color: rgba(255, 62, 0, 0.1);
+        border-radius: 2em;
+        border: 2px solid rgba(255, 62, 0, 0);
+        outline: none;
+        width: 130px;
+        font-variant-numeric: tabular-nums;
+        cursor: pointer;
+    }
+
+    button:focus {
+        border: 2px solid #ff3e00;
+    }
+
+    button:active {
+        background-color: rgba(255, 62, 0, 0.2);
+    }
+
+    p {
+        margin: 1rem auto;
+        line-height: 1.5;
+        text-align: left;
+        color: grey;
+        width: 95%;
+        /* border: 2px solid lime; */
+    }
+
+    .highlighter {
+        background-color: rgba(255, 191, 0, 0.3);
+        border-radius: 5px;
+        color: #ff3e00;
+        padding: 0.1rem 0.3rem;
+        font-weight: 600;
+    }
+
+    .makeOrange {
+        color: #ff3e00;
+        font-weight: 600;
+        background-color: none;
+    }
+
+    .spacer {
+        height: 10px;
+    }
+}
+
+/* --------------------------------- 301px - 400px */
+
+@media screen and (max-width: 400px) {
+    .container {
+        border: 2px solid #ff3e00;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem 0rem 5rem 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 2rem;
+        width: 100%;
+        min-width: 300px;
+        max-width: 600px;
+    }
+
+    h1 {
+        color: #ff3e00;
+        text-transform: uppercase;
+        letter-spacing: 0.03rem;
+        font-weight: 200;
+        line-height: 2rem;
+        margin: -1rem 0rem 1rem 0rem;
+        padding: 0 2rem;
+    }
+
+    .chapterNum {
+        color: #ff3e00;
+        background-color: #ffffff;
+        font-weight: 600;
+        font-size: 5rem;
+    }
+
+    h4 {
+        color: #696969;
+        max-width: 600px;
+        line-height: 1.8rem;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .chapterName {
+        font-weight: 400;
+        font-size: 3rem;
+        background-color: #ffffff;
+        padding: 1rem;
+    }
+
+    .chapterSubHeading {
+        font-weight: 200;
+        font-size: 1.5rem;
+        background-color: none;
+    }
+
+    .example {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        min-width: 220px;
+        max-width: 500px;
+        border: 2px solid rgba(255, 62, 0, 0.2);
+        border-radius: 10px;
+        padding: 2rem 0;
+    }
+
+    .exampleText {
+        margin: 1rem;
+        min-width: 120px;
+        text-align: center;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .codeBlockImg {
+        width: 100%;
+        padding: 0rem 0rem 0rem 0rem;
+        min-width: 200px;
+        max-width: 500px;
+    }
+
+    .codeBlockImg img {
+        width: 100%;
+    }
+
+    button {
+        margin: 1rem 0;
+        font-family: inherit;
+        font-size: inherit;
+        padding: 1em 1em;
+        color: #ff3e00;
+        background-color: rgba(255, 62, 0, 0.1);
+        border-radius: 2em;
+        border: 2px solid rgba(255, 62, 0, 0);
+        outline: none;
+        width: 130px;
+        font-variant-numeric: tabular-nums;
+        cursor: pointer;
+    }
+
+    button:focus {
+        border: 2px solid #ff3e00;
+    }
+
+    button:active {
+        background-color: rgba(255, 62, 0, 0.2);
+    }
+
+    p {
+        margin: 1rem auto;
+        line-height: 1.5;
+        text-align: left;
+        color: grey;
+        width: 95%;
+        /* border: 2px solid lime; */
+    }
+
+    .highlighter {
+        background-color: rgba(255, 191, 0, 0.3);
+        border-radius: 5px;
+        color: #ff3e00;
+        padding: 0.1rem 0.3rem;
+        font-weight: 600;
+    }
+
+    .makeOrange {
+        color: #ff3e00;
+        font-weight: 600;
+        background-color: none;
+    }
+
+    .spacer {
+        height: 10px;
+    }
+}
+
+/* --------------------------------- 0px - 300px */
+@media screen and (max-width: 300px) {
+    .container {
+        border: none;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 3rem auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        padding-bottom: 2rem;
+        width: 100%;
+        min-width: fit-content;
+        max-width: 500px;
+    }
+
+    h1 {
+        color: #ff3e00;
+        text-transform: uppercase;
+        letter-spacing: 0.03rem;
+        font-weight: 200;
+        line-height: 2rem;
+        margin: -1rem 0rem 1rem 0rem;
+        padding: 0 2rem;
+    }
+
+    .chapterNum {
+        color: #ff3e00;
+        background-color: #ffffff;
+        font-weight: 600;
+        font-size: 5rem;
+    }
+
+    h4 {
+        color: #696969;
+        max-width: 600px;
+        line-height: 1.8rem;
+        text-align: center;
+        margin: 1rem;
+    }
+
+    .chapterName {
+        font-weight: 400;
+        font-size: 3rem;
+        background-color: #ffffff;
+        padding: 0;
+    }
+
+    .chapterSubHeading {
+        font-weight: 200;
+        font-size: 1.5rem;
+        background-color: none;
+    }
+
+    .example {
+        width: 100%;
+        min-width: fit-content;
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 10px;
+        padding: 1rem 0;
+    }
+
+    .exampleText {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .codeBlockImg {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        min-width: 280px;
+        max-width: 500px;
+    }
+
+    .codeBlockImg img {
+        width: 100%;
+    }
+
+    button {
+        margin: 1rem 0;
+        font-family: inherit;
+        font-size: inherit;
+        padding: 1em 1em;
+        color: #ff3e00;
+        background-color: rgba(255, 62, 0, 0.1);
+        border-radius: 2em;
+        border: 2px solid rgba(255, 62, 0, 0);
+        outline: none;
+        width: 130px;
+        font-variant-numeric: tabular-nums;
+        cursor: pointer;
+    }
+
+    button:focus {
+        border: 2px solid #ff3e00;
+    }
+
+    button:active {
+        background-color: rgba(255, 62, 0, 0.2);
+    }
+
+    p {
+        margin: 1rem 0;
+        line-height: 1.5;
+        text-align: left;
+        color: grey;
+        width: 95%;
+        /* border: 2px solid lime; */
+    }
+
+    .highlighter {
+        background-color: rgba(255, 191, 0, 0.3);
+        border-radius: 5px;
+        color: #ff3e00;
+        padding: 0.1rem 0.3rem;
+        font-weight: 600;
+    }
+
+    .makeOrange {
+        color: #ff3e00;
+        font-weight: 600;
+        background-color: none;
+    }
+
+    .spacer {
+        height: 10px;
+    }
+}
