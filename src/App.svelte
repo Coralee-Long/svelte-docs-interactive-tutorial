@@ -48,7 +48,7 @@
         max-width: 1200px;
         margin: 200px auto 100px auto;
         padding: 0;
-        border: 2px solid lime
+        /* border: 2px solid lime */
         }
     }
 

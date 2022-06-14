@@ -65,31 +65,4 @@
         justify-content: center;
         align-items: center;
     }
-
-    @media screen and (min-width: 1201px) {
-        #expandPic {
-            width: 100%;
-            max-width: fit-content;
-            padding: 0;
-            margin: 0 8rem;
-        }
-    }
-
-    @media screen and (max-width: 1200px) {
-        #expandPic {
-            width: 100%;
-            max-width: fit-content;
-            padding: 0;
-            margin: 0 2rem;
-        }
-    }
-
-    @media screen and (max-width: 600px) {
-        #expandPic {
-            width: 100%;
-            max-width: fit-content;
-            padding: 0;
-            margin: 0rem;
-        }
-    }
 </style>

@@ -58,11 +58,11 @@
                 <img src="{block2_3c}" alt="code block2_3c" width="100%" />
             </div>
             <p>However, indirect assignments to references such as this...</p>
-            <div class="codeBlockImg">
+            <div class="codeBlockImg" id="reducePic">
                 <img src="{block2_3d}" alt="code block2_3d" width="100%" />
             </div>
             <p>...or this...</p>
-            <div class="codeBlockImg">
+            <div class="codeBlockImg" id="reducePic">
                 <img src="{block2_3e}" alt="code block2_3e" width="100%" />
             </div>
             <p>

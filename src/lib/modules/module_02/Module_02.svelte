@@ -16,7 +16,7 @@
         width: 100%;
         min-width:fit-content;
         margin: 0 auto;
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
   
     }
 </style>
