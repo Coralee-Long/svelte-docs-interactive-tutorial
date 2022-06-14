@@ -35,13 +35,15 @@
             height: 120px;
             background-color: #ff3e00;
             width: 100%;
-            margin-bottom: 5rem;
+            min-width: max-content;
+            margin: 0 0 5rem 0;
             padding: 0 3rem;
             display: flex;
             align-content: center;
             position: fixed;
             filter: drop-shadow(0px 10px 21px rgba(0, 0, 0, 0.42));
             top: 0;
+            left: 0;
             /*  */
         }
 
@@ -112,7 +114,7 @@
     @media screen and (max-width: 1200px) {
         main {
             width: 100%;
-            min-width: 800px;
+            min-width: max-content;
             margin: 0;
             padding: 0;
         }
@@ -198,7 +200,7 @@
     @media screen and (max-width: 800px) {
         main {
             width: 100%;
-            min-width: 600px;
+            min-width: max-content;
             margin: 0;
             padding: 0;
         }
@@ -214,6 +216,7 @@
             position: fixed;
             filter: drop-shadow(0px 10px 21px rgba(0, 0, 0, 0.42));
             top: 0;
+
             /*  */
         }
 
@@ -275,7 +278,7 @@
     @media screen and (max-width: 600px) {
         main {
             width: 100%;
-            min-width: 300px;
+            min-width: max-content;
             margin: 0;
             padding: 0;
         }
@@ -283,8 +286,8 @@
         .navContainer {
             height: 250px;
             background-color: #ff3e00;
-            width: 100%;
-            margin-bottom: 5rem;
+            min-width: 100%;
+            margin: 0 0 5rem 0;
             padding: 0 2rem;
             display: flex;
             align-content: center;
@@ -292,6 +295,7 @@
             position: fixed;
             filter: drop-shadow(0px 10px 21px rgba(0, 0, 0, 0.42));
             top: 0;
+            left: 0;
             /* border: 2px solid lime; */
         }
 
@@ -359,7 +363,7 @@
     @media screen and (max-width: 300px) {
         main {
             width: 100%;
-            min-width: 250px;
+            min-width: max-content;
             margin: 0;
             padding: 0;
         }
@@ -368,7 +372,7 @@
             height: 480px;
             background-color: #ff3e00;
             width: 100%;
-            margin-bottom: 5rem;
+            margin: 0 0 5rem 0;
             padding: 0 2rem;
             display: flex;
             flex-direction: column;
@@ -376,6 +380,7 @@
             position: fixed;
             filter: drop-shadow(0px 10px 21px rgba(0, 0, 0, 0.42));
             top: 0;
+
             /*  */
         }
 

@@ -2,18 +2,22 @@
     import NavBar from '/src/lib/layout/Navbar.svelte'
     import FooterBar from '/src/lib/layout/FooterBar.svelte'
     import Module_02 from '../src/lib/modules/module_02/Module_02.svelte'
+    import Module_03 from '../src/lib/modules/module_03/Module_03.svelte'
+    import Module_04 from '../src/lib/modules/module_04/Module_04.svelte'
 
 </script>
 
 <main>
 
-    <NavBar />
-
     <section class="articleSection">
+        <NavBar />
        <Module_02/>
+       <Module_03 />
+       <Module_04 />
     </section>
 
     <FooterBar />
+
 </main>
 
 <!------------ STYLES --------------->
@@ -125,7 +129,7 @@
     .articleSection {
         width: 100%;
         margin: 325px auto 75px auto;
-        padding: 0 1rem;
+        padding: 0 1rem 0 1rem;
         /* border: 3px dashed lime; */
 
         }
@@ -136,26 +140,25 @@
 
     
     main {
+        box-sizing: border-box;
         width: 100%;
-        max-width: 300px;
+        min-width: 300px;
+        margin: 0 auto;
         height: 100%;
-        text-align: center;
+        float: center;
         padding: 0;
-  
         display: flex;
         flex-direction: column;
         align-items: center;
+        align-self: center;
         justify-content: center;
-        /* border: 3px solid red; */
+    
     }
      
     .articleSection {
-        width: 100%;
-        max-width: 300px;
-        margin-top: 550px;
-        margin-bottom: 50px;
-        margin-left: 1rem;
-        padding: 0 0.5rem;
+        margin: 550px auto 50px auto;
+        padding: 0 0 0 1.5rem;
+        /* border: 6px solid lime; */
         }
     }
     

@@ -26,7 +26,7 @@
         <h1>
             <span class="chapterName">Reactivity</span>
             <br />
-            <span class="chapterSubHeading">Assignments & Declarations</span>
+            <span class="chapterSubHeading">2.1 Assignments & Declarations</span>
         </h1>
         <div class="spacer"></div>
         <section>
@@ -41,7 +41,7 @@
             <div class="example">
                 <h4>Example of the count having a reactive declaration:</h4>
                 <div class="codeBlockImg" id="expandPic">
-                    <img src="{block2_1}" alt="code block2_1" width="100%" />
+                    <img src="{block2_1}" alt="code block2_1" />
                 </div>
                 <button on:click="{increment}">Clicks: {count}</button>
                 <p class="exampleText">

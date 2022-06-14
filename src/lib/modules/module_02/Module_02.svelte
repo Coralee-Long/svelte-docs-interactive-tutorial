@@ -3,12 +3,14 @@
     import Ex2_2 from '../module_02/Ex2_2.svelte'
     import Ex2_3 from '../module_02/Ex2_3.svelte'
 
+
 </script>
 
 <main>
-    <Ex2_1/>
-    <Ex2_2/>
-    <Ex2_3/>
+    <Ex2_1 />
+    <Ex2_2 />
+    <Ex2_3 />
+
 </main>
 
 <style>

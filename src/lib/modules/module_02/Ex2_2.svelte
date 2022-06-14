@@ -10,7 +10,7 @@
         <h1>
             <span class="chapterName">Reactivity</span>
             <br />
-            <span class="chapterSubHeading">Statements</span>
+            <span class="chapterSubHeading">2.2 Statements</span>
         </h1>
         <div class="spacer"></div>
         <section>
@@ -19,13 +19,13 @@
                 example, we can log the value of <span class="highlighter">count</span> whenever it changes:
             </p>
             <div class="codeBlockImg">
-                <img src="{block2_2a}" alt="code block2_2a" width="100%" />
+                <img src="{block2_2a}" alt="code block2_2a" />
             </div>
         </section>
         <section>
             <p>You can easily group statements together with a block:</p>
             <div class="codeBlockImg">
-                <img src="{block2_2b}" alt="code block2_2b" width="100%" />
+                <img src="{block2_2b}" alt="code block2_2b" />
             </div>
         </section>
         <section>
@@ -34,7 +34,7 @@
                 <span class="highlighter">if</span> blocks:
             </p>
             <div class="codeBlockImg">
-                <img src="{block2_2c}" alt="code block2_2c" width="100%" />
+                <img src="{block2_2c}" alt="code block2_2c" />
             </div>
         </section>
     </div>

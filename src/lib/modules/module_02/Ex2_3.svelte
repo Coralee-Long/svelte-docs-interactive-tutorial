@@ -21,7 +21,7 @@
         <h1>
             <span class="chapterName">Reactivity</span>
             <br />
-            <span class="chapterSubHeading">Updating Arrays & Objects</span>
+            <span class="chapterSubHeading">2.3 Updating Arrays & Objects</span>
         </h1>
         <div class="spacer"></div>
 
@@ -35,14 +35,14 @@
                 assign <span class="highlighter">numbers</span> to itself to tell the compiler it has changed:
             </p>
             <div class="codeBlockImg">
-                <img src="{block2_3a}" alt="code block2_3a" width="100%" />
+                <img src="{block2_3a}" alt="code block2_3a" />
             </div>
         </section>
 
         <section>
             <p>You could also write this more concisely using the ES6 spread syntax:</p>
             <div class="codeBlockImg">
-                <img src="{block2_3b}" alt="code block2_3b" width="100%" />
+                <img src="{block2_3b}" alt="code block2_3b" />
             </div>
         </section>
 
@@ -55,15 +55,15 @@
                 work the same way as assignments to the values themselves.
             </p>
             <div class="codeBlockImg">
-                <img src="{block2_3c}" alt="code block2_3c" width="100%" />
+                <img src="{block2_3c}" alt="code block2_3c" />
             </div>
             <p>However, indirect assignments to references such as this...</p>
             <div class="codeBlockImg" id="reducePic">
-                <img src="{block2_3d}" alt="code block2_3d" width="100%" />
+                <img src="{block2_3d}" alt="code block2_3d" />
             </div>
             <p>...or this...</p>
             <div class="codeBlockImg" id="reducePic">
-                <img src="{block2_3e}" alt="code block2_3e" width="100%" />
+                <img src="{block2_3e}" alt="code block2_3e" />
             </div>
             <p>
                 ...won't trigger reactivity on <span class="highlighter">obj.foo.bar</span>, unless you follow it up
@@ -76,7 +76,7 @@
                 <h4>Example:</h4>
 
                 <div class="codeBlockImg" id="expandPic">
-                    <img src="{block2_3f}" alt="code block2_3f" width="100%" />
+                    <img src="{block2_3f}" alt="code block2_3f" />
                 </div>
                 <button on:click="{addNumber}">Add a number</button>
                 <p class="exampleText">{numbers.join(' + ')} = {sum}</p>

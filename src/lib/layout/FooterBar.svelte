@@ -7,11 +7,12 @@
 <style>
     main {
         width: 100%;
-        min-width: 400px;
+        /* min-width: 300px; */
     }
     .footerContainer {
         height: 250px;
         width: 100%;
+        min-width: max-content;
         bottom: 0;
         background-color: #ff3e00;
         padding: 0 3rem;
