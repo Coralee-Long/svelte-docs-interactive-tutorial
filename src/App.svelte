@@ -1,9 +1,14 @@
 <script>
     import NavBar from '/src/lib/layout/Navbar.svelte'
     import FooterBar from '/src/lib/layout/FooterBar.svelte'
+
     import Module_02 from '../src/lib/modules/module_02/Module_02.svelte'
     import Module_03 from '../src/lib/modules/module_03/Module_03.svelte'
     import Module_04 from '../src/lib/modules/module_04/Module_04.svelte'
+    import Module_05 from '../src/lib/modules/module_05/Module_05.svelte'
+
+ 
+  
 
 </script>
 
@@ -14,6 +19,8 @@
        <Module_02/>
        <Module_03 />
        <Module_04 />
+       <!-- <Module_05 /> -->
+
     </section>
 
     <FooterBar />
@@ -27,6 +34,7 @@
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
             'Helvetica Neue', sans-serif;
     }
+
 
 
     /* --------------------------------- 1201px +++  */

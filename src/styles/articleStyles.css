@@ -87,7 +87,7 @@
     #expandPic {
         width: 90%;
         max-width: fit-content;
-        padding: 0rem 1.5rem 2.5rem 1.5rem;
+        padding: 0rem 1.5rem;
         margin: 0 0rem;
     }
 
@@ -233,7 +233,7 @@
     }
 
     .exampleText {
-        margin: 1;
+        margin: 1rem;
         text-align: center;
     }
 
@@ -246,21 +246,21 @@
     }
 
     #expandPic {
-        width: 110%;
+        width: 100%;
         max-width: fit-content;
-        padding: 0rem 1rem 1.5rem 1em;
+        padding: 0rem 1rem;
         margin: 0 0rem;
     }
 
     #reducePic {
-        width: 40%;
+        width: 60%;
         max-width: fit-content;
         padding: 0rem 1.5rem 1.5rem 1.5rem;
         margin: 0 0rem;
     }
 
     .codeBlockImg {
-        width: 65%;
+        width: 85%;
         padding: 0rem 1.5rem 1.5rem 1.5rem;
         max-width: max-content;
         min-width: min-content;
@@ -396,7 +396,7 @@
     }
 
     .exampleText {
-        margin: 1;
+        margin: 1rem;
         min-width: 300px;
         text-align: center;
     }
@@ -412,7 +412,7 @@
     #expandPic {
         width: 100%;
         max-width: fit-content;
-        padding: 0rem 1.5rem 1.5rem 1.5rem;
+        padding: 0rem 1.5rem;
         margin: 0rem;
     }
 
@@ -575,7 +575,7 @@
     #expandPic {
         min-width: 115%;
         max-width: fit-content;
-        padding: 0rem 1.5rem 1.5rem 1.5rem;
+        padding: 0rem 1.5rem;
         margin: 0 0rem;
     }
 
@@ -721,7 +721,7 @@
     }
 
     .exampleText {
-        margin: 1rem 0;
+        margin: 1rem;
         text-align: center;
     }
 
